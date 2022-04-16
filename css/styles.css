@@ -558,12 +558,13 @@ color: var(--hero-color-text);
 text-transform: uppercase;
 }
 .contact-form-field-footer {
+  align-items: baseline;
 display: flex;
-width: 570px;
 }
 .contact-form-input-footer {
+  padding-left: 16px;
 height: 50px;
-width: 100%;
+width: 358px;
 margin-top: 20px;
 border: 1px solid rgba(255, 255, 255, 0.3);
 border-radius: 4px;
@@ -696,7 +697,7 @@ color: var(--hero-color-text);
   display: inline-block;
   width: 16px;
   height: 15px;
-  border: 1px solid var(--btn-main-color-text);
+  border: 2px solid var(--btn-main-color-text);
   cursor: pointer;
   margin-right: 8px;
   border-radius: 2px;
@@ -746,10 +747,9 @@ color: var(--hero-color-text);
   display: flex;
   justify-content: end;
   margin-left: 12px;
-  margin-top: 20px;
   align-items: center;
   min-width: 200px;
-  min-height: 50px;
+  height: 50px;
   padding-right: 32px;
   padding-left: 32px;
   cursor: pointer;
